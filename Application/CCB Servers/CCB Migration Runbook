@@ -1,0 +1,33 @@
+Step-by-Step Execution Guide
+
+Pre-Migration Checklist
+
+ Environment assessment completed
+ OCI compartment and network configured
+ Security groups and policies applied
+ Backup procedures validated
+Cutover Procedure
+Day of Migration - 4 Hour Window
+
+Hour 1: Pre-Cutover
+Stop new transactions on source
+Final data synchronization
+Health check of OCI environment
+Hour 2: Application Cutover
+DNS switch to OCI load balancer
+Application server validation
+
+Database connectivity test
+Hour 3: Testing & Validation
+Functional testing
+Performance benchmarking
+User acceptance testing
+Hour 4: Go-Live Decision
+
+Performance metrics review
+Rollback decision point
+Production handover
+Rollback Procedure
+Switch DNS back to source
+Verify transaction integrity
+Incident post-mortem
