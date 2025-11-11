@@ -1,0 +1,12 @@
+Pre-Migration Baseline
+
+Metric	On-Premises	Target OCI
+Application Response	800ms	< 400ms
+Batch Processing	4 hours	< 2.5 hours
+Concurrent Users	500	1500+
+Uptime	99.5%	99.9%
+Post-Migration Results
+Application Response: 450ms (44% faster)
+Batch Processing: 2.2 hours (45% faster)
+User Capacity: 1800 users (3.6x increase)
+Cost Reduction: 32% savings achieved
