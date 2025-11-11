@@ -1,0 +1,20 @@
+# CCB Database Migration to OCI DBaaS
+## Oracle Database Migration from On-Premises to OCI Database Service
+
+### Project Overview
+Migration of CCB (Core Application) Oracle database from on-premises RAC cluster to OCI DBaaS with Data Guard for high availability.
+
+### Business Objectives
+- **High Availability**: 99.95% database uptime
+- **Performance**: Exadata performance benefits
+- **Disaster Recovery**: RPO < 5 minutes, RTO < 1 hour
+- **Cost Optimization**: 40% reduction vs on-premises
+
+###  Database Architecture
+
+#### Source Environment (On-Premises)
+On-Premises Database:
+├── Oracle RAC Cluster (2 nodes)
+├── ASM Storage
+├── Backup to Tape
+└── Limited DR Capability
