@@ -1,0 +1,7 @@
+tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaa..."
+user_ocid = "ocid1.user.oc1..aaaaaaa..."
+fingerprint = "12:34:56:78*******90:ab:cd:ef:*****12:34:56:78:90:ab:cd:ef"
+private_key_path = "~/.oci/oci_api_key.pem"
+region = "me-dubai-1"
+compartment_ocid = "ocid1.compartment.oc1..ccccc******aaaaaaa..."
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC..."
